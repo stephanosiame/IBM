@@ -1,0 +1,102 @@
+/* Task 1: Profile Name Styling */
+#profile-name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Task 2: Navigation Bar Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Task 3: About Me Section Styling */
+#about {
+    text-align: center;
+}
+
+#profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Task 4: Skills Section Styling */
+#skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill img {
+    width: 50px;
+}
+
+.skill p {
+    text-align: center;
+}
+
+/* Task 5: Projects Section Styling */
+#projects {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+/* Task 6: Recommendations Section Styling */
+#recommendations {
+    padding: 20px;
+}
+
+.recommendation {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Task 9: Popup Styling */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#home-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#home-icon:hover {
+    background-color: #0056b3;
+}
